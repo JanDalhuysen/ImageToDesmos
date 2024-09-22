@@ -18,6 +18,4 @@ int main(int argc, char **argv)
 	Canny(img, out, 30, 90);
 
 	imwrite("outlines.png", out);
-
-	// waitKey(0);
 }
