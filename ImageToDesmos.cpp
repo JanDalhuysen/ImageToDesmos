@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 	// system(("opencv.exe " + filename).c_str());
 	system(("./opencv " + filename).c_str());
 
-	system("magick outlines.png pnmoutlines.pnm");
+	system("convert outlines.png pnmoutlines.pnm");
 
 	system("potrace pnmoutlines.pnm -s -o output.svg");
 
