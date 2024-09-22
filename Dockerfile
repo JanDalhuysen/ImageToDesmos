@@ -36,9 +36,9 @@ COPY opencv.cpp /app
 
 COPY svgeq-release.jar /app
 
-COPY arch.png /app
+COPY input.png /app
 
 RUN cmake .
 RUN make
 RUN g++ ImageToDesmos.cpp -o ImageToDesmos
-RUN ./ImageToDesmos arch.png
+RUN ./ImageToDesmos input.png
