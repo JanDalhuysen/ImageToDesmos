@@ -24,3 +24,13 @@ docker ps -l -q
 # Copy the output file from the container to the host
 docker cp $(docker ps -l -q):/app ./output
 ```
+
+## Demo
+
+<p align="center">
+<img src="input.png">
+</p>
+
+<p align="center">
+<img src="output.png">
+</p>
