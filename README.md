@@ -7,12 +7,12 @@
 
 ```bash
 # Build the Docker image
-docker build -t ImageToDesmos .
+docker build -t imagetodesmos .
 ```
 
 ```bash
 # Run the Docker image
-docker run ImageToDesmos
+docker run imagetodesmos
 ```
 
 ```bash
